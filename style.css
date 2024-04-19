@@ -1,0 +1,126 @@
+.divmain{
+padding: 50px;
+
+
+
+  
+ 
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+
+ 
+ 
+}
+
+#yr:hover{
+font-size: 30px;
+
+}
+#date:hover{
+    font-size: 30px;
+
+
+}
+#avathar:hover{
+    width: 320px;
+    height: 320px;
+
+
+}
+/*
+    Challenge:
+    Follow my orders on where we should
+    leave our lab equipment!
+    
+    justify-content:
+    start, center, end, space-around, 
+    space-evenly, space-between
+    
+    align-items:
+    start, center, end
+    */
+
+    
+body{
+
+    background: linear-gradient(#a2d2ff,#EFB0C9 );
+    color: #ffffff;
+    margin: 0;
+    width: 100%;
+    font-family: "Happy Monkey", system-ui;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+h1 h2, h4,p {
+    text-shadow: 0px 0px 2px black; 
+   
+   
+}
+#yr , #date{
+background-color: #EFB0C9;
+padding: 0px 30px 0px 10px;
+border-radius: 10px;
+margin: 25px 5px;
+
+}
+
+/*
+pink: #EFB0C9
+blue: #a2d2ff
+white: #ffffff
+*/
+#avathar {
+    width: 300px;
+    height: 300px;
+    
+    border-radius: 50%;
+    border: 10px solid  #EFB0C9;
+}
+
+.giftbox{
+    height: 400px;
+    width: 400px;
+    border: 10px solid white;
+    background-image: url("giftbox.jpg");
+    background-size: cover;
+}
+
+#img1:hover{
+    background-image: url("smfull.jpeg");
+}
+#img2:hover{
+   background-image: url("smfull.jpeg");
+}
+
+  #img3{
+    height: 200px;
+  }
+#img3:hover{
+    background-image: url("smfull.jpeg");
+    
+ }
+
+
+.gift-section{
+
+  
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+}
+
+#footer{
+    width: 400px;
+    margin:60px auto 100px auto ;
+    font-style: italic;
+    
+
+}
+a{
+    color: white;
+}

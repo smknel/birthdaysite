@@ -1,0 +1,42 @@
+.container{
+background-color: rgb(26, 122, 206);
+padding: 20px;
+display: flex;
+justify-content: center;
+align-items: start;
+flex-direction: column;
+
+height: 50%;
+    width: 100%;
+
+
+}
+
+body{
+
+    margin: 0;
+}
+.item{
+    background-color: aqua;
+
+margin-left: 3px;
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+}
+
+
+.item1 {
+    text-align: center;
+    color: white;
+    margin: 5px;
+    padding: 25px 0;
+    background: #e5383b;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.item1:hover{
+
+    background-color: #ba181b;
+}
